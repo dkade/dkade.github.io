@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wafv2 on dKade&#39;s notes</title>
+    <link>https://dkade.com/tags/wafv2/</link>
+    <description>Recent content in wafv2 on dKade&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/dkade&#34;&gt;dkade&lt;/a&gt; 2021</copyright>
+    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dkade.com/tags/wafv2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tips and lessons learnt by using AWS FMS and WAFv2</title>
+      <link>https://dkade.com/post/aws_tips_waf_fms/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkade.com/post/aws_tips_waf_fms/</guid>
+      <description>Properly plan for your WAF logs, this will be the hardest part; Logs are activated per WebACL so each account needs to have a properly configured Kinesis Data Firehose. It is possible to enable the logs from FMS When creating Cloudformation stack make sure you make resources dependent on another or WAF will quickly rate limit Cloudformation and your stack will fail Use JSON in Cloudformation because we have accounts starting with 0 and PyYAML has a bug Instead of Cloudformation you can use Terraform (when I started building the solution this wasn&amp;rsquo;t possible) Before activating an account on a FMS Policy, make sure that account has AWS Config enabled Use AWS Managed rules as they are created with standards in mind for example protecting from OWASP Top 10 AWS WAF uses web ACL capacity units and you are limited to 1500, you can request increase but it&amp;rsquo;s not simple, so plan accordingly because if you need to change the WCU capacity of a Rule group you have to create a new one and delete the old one Rate limit rules can ONLY be added to WebACLs and are related to that WebACL.</description>
+    </item>
+    
+    <item>
+      <title>How OLX Europe Fights Millions of Bots with AWS</title>
+      <link>https://dkade.com/post/olx_aws_post_/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkade.com/post/olx_aws_post_/</guid>
+      <description>My latest work done in OLX was featured by AWS on their own blog! I&amp;rsquo;m really happy with it. I talk about using AWS Firewall Manager + WAFv2 and in house tools to fight attacks.
+Read more at -&amp;gt; https://aws.amazon.com/blogs/architecture/field-notes-how-olx-europe-fights-millions-of-bots-with-aws/</description>
+    </item>
+    
+  </channel>
+</rss>

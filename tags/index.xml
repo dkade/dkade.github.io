@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on dKade&#39;s notes</title>
+    <link>https://dkade.com/tags/</link>
+    <description>Recent content in Tags on dKade&#39;s notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/dkade&#34;&gt;dkade&lt;/a&gt; 2021</copyright>
+    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dkade.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>aws</title>
+      <link>https://dkade.com/tags/aws/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkade.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fms</title>
+      <link>https://dkade.com/tags/fms/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkade.com/tags/fms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
+      <link>https://dkade.com/tags/tips/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkade.com/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>waf</title>
+      <link>https://dkade.com/tags/waf/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkade.com/tags/waf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wafv2</title>
+      <link>https://dkade.com/tags/wafv2/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkade.com/tags/wafv2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>olx</title>
+      <link>https://dkade.com/tags/olx/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkade.com/tags/olx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://dkade.com/tags/security/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dkade.com/tags/security/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
