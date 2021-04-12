@@ -103,7 +103,7 @@
 <li>Properly plan for your WAF logs, this will be the hardest part;</li>
 <li>Logs are activated per WebACL so each account needs to have a properly configured Kinesis Data Firehose. It is possible to enable the logs from FMS</li>
 <li>When creating Cloudformation stack make sure you make resources dependent on another or WAF will quickly rate limit Cloudformation and your stack will fail</li>
-<li>Use JSON in Cloudformation because we have accounts starting with 0 and PyYAML has a <a href="https://github.com/yaml/pyyaml/issues/98">bug</a></li>
+<li>Use JSON in Cloudformation if you have accounts starting with 0. PyYAML has a <a href="https://github.com/yaml/pyyaml/issues/98">bug</a></li>
 <li>Instead of Cloudformation you can use Terraform (when I started building the solution this wasn&rsquo;t possible)</li>
 <li>Before activating an account on a FMS Policy, make sure that account has AWS Config enabled</li>
 <li>Use AWS Managed rules as they are created with standards in mind for example protecting from <a href="https://owasp.org/www-project-top-ten/">OWASP Top 10</a></li>
